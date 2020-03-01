@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+Sun, Feb 23 2020
 
 ### Project Title
-Replace the Project Title
+Python Project - Udacity course 'Programming for Data Science with Python'
 
 ### Description
-Describe what your project is about and what it does
+In this project we use data from a bike share system provider for many major cities in the United States. We uncover some bike share usage patterns. We compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity course blog
