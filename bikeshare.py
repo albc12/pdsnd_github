@@ -196,6 +196,16 @@ def main():
         user_stats(df)
 
         #TO DO
+        raw = input('\nWould you like to view 5 lines of raw data? Enter yes or no.\n')
+        if raw == 'yes':
+            i= 0
+            while True:
+                print(df.iloc[i:i+5])
+                i = i + 5
+                more_raw = input('\nWould you like to see five more rows of the data? Enter yes or no.\n').lower()
+                if more_raw != 'yes':
+                    break
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
